@@ -1,0 +1,68 @@
+import { WebLink } from '../types';
+
+export const webLinks: WebLink[] = [
+  {
+    id: '1',
+    title: 'OpenAI',
+    url: 'https://openai.com',
+    description: 'OpenAI官方网站',
+    category: 'AI公司',
+    icon: '🤖',
+  },
+  {
+    id: '2',
+    title: 'Anthropic',
+    url: 'https://anthropic.com',
+    description: 'Claude AI的开发公司',
+    category: 'AI公司',
+    icon: '🧠',
+  },
+  {
+    id: '3',
+    title: 'Google AI',
+    url: 'https://ai.google',
+    description: 'Google AI研究和产品',
+    category: 'AI公司',
+    icon: '🔍',
+  },
+  {
+    id: '4',
+    title: 'Hugging Face',
+    url: 'https://huggingface.co',
+    description: '开源AI模型和工具平台',
+    category: '开发工具',
+    icon: '🤗',
+  },
+  {
+    id: '5',
+    title: 'GitHub Copilot',
+    url: 'https://github.com/features/copilot',
+    description: 'AI编程助手',
+    category: '开发工具',
+    icon: '💻',
+  },
+  {
+    id: '6',
+    title: 'Midjourney',
+    url: 'https://midjourney.com',
+    description: 'AI图像生成工具',
+    category: '创意工具',
+    icon: '🎨',
+  },
+  {
+    id: '7',
+    title: 'Stable Diffusion',
+    url: 'https://stability.ai',
+    description: '开源AI图像生成',
+    category: '创意工具',
+    icon: '🖼️',
+  },
+  {
+    id: '8',
+    title: 'Papers with Code',
+    url: 'https://paperswithcode.com',
+    description: 'AI研究论文和代码',
+    category: '学习资源',
+    icon: '📚',
+  },
+];
